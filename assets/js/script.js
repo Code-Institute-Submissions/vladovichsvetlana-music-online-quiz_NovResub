@@ -75,7 +75,25 @@ var quiz = [    [
     "status": ""
     },
 ]
-    
+    var score= document.getElementById
+("score");
+var option0= document.getElementById 
+("option0");
+var option1= document.getElementById
+("option1");
+var option2 = document.getElementById
+("option2");
+var option3 = document.getElementById
+("option3");
+var question= document.getElementById
+("question");
+var quiz= document.getElementById
+("quiz");
+var points= document.getElementById("score");
+var span= document.getElementById("span");
+var i=0;
+var score= 0;
 
+//
 
     
