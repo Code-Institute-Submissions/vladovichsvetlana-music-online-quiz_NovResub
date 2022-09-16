@@ -1,14 +1,13 @@
-var quiz = {
-    "JS": [
+var quiz = [    [
     {
     "id": question-1,
-    "question": ""The Winner Takes It All" was yet another N.1 of which group?",
+    "question": "The Winner Takes It All was yet another N.1 of which group?",
     "options": [
     {
-    "a": "&lt;Abba&gt;",
-    "b": "&lt;Nirvana&gt;",
-    "c": "&lt;Metallica&gt;",
-    "d": "&lt;Guns and Roses&gt;"
+    "1": "&lt;Abba&gt;", 
+    "2": "&lt;Nirvana&gt;",
+    "3": "&lt;Metallica&gt;",
+    "4": "&lt;Guns and Roses&gt;"
     }
     ],
     "answer": "&lt;Abba&gt;",
@@ -20,10 +19,10 @@ var quiz = {
     "question": "Which Beatles N.1 featured the word Yellow in the title?",
     "options": [
     {
-    "a": "&lt;Red submarine&gt;",
-    "b": "&lt;Yellow submarine&gt;",
-    "c": "&lt;Blue submarine&gt;",
-    "d": "&lt;Green submarine&gt;"
+    "1": "&lt;Red submarine&gt;",
+    "2": "&lt;Yellow submarine&gt;",
+    "3": "&lt;Blue submarine&gt;",
+    "4": "&lt;Green submarine&gt;"
     }
     ],
     "answer": "&lt;Yellow submarine&gt;",
@@ -35,10 +34,10 @@ var quiz = {
     "question": "George Michael first hit N.1 as a member of which duo?",
     "options": [
     {
-    "a": "&lt;Wham!&gt;",
-    "b": "&lt;Kiss&gt;",
-    "c": "&lt;Damn!&gt;",
-    "d": "&lt;Hello!&gt;"
+    "1": "&lt;Wham!&gt;",
+    "2": "&lt;Kiss&gt;",
+    "3": "&lt;Damn!&gt;",
+    "4": "&lt;Hello!&gt;"
     }
     ],
     "answer": "&lt;Wham&gt;",
@@ -50,10 +49,10 @@ var quiz = {
     "question": "(Everything I Do) I Do it for You! was a monster hit of whom?",
     "options": [
     {
-    "a": "&lt;Bryan Adams&gt;",
-    "b": "&lt;Elton John&gt;",
-    "c": "&lt;Sting&gt;",
-    "d": "&lt;Michael Jackson&gt;"
+    "1": "&lt;Bryan Adams&gt;",
+    "2": "&lt;Elton John&gt;",
+    "3": "&lt;Sting&gt;",
+    "4": "&lt;Michael Jackson&gt;"
     }
     ],
     "answer": "&lt;Bryan Adams&gt;",
@@ -65,14 +64,28 @@ var quiz = {
     "question": "Who was the lead singer with the Police?",
     "options": [
     {
-    "a": "&lt;Paul McCartney&gt;",
-    "b": "&lt;Sting&gt;",
-    "c": "&lt;Elton John&gt;",
-    "d": "&lt;Michael Jackson&gt;"
+    "1": "&lt;Paul McCartney&gt;",
+    "2": "&lt;Sting&gt;",
+    "3": "&lt;Elton John&gt;",
+    "4": "&lt;Michael Jackson&gt;"
     }
     ],
     "answer": "&lt;Sting&gt;",
     "score": 0,
     "status": ""
     },
+]
+        var score = 0;
+        for(var i=0; i <questions.length; i++){
+            var response = winsow.promt(questions(i).prompt);
+            if(response == questions(i).answer){
+                score++;
+                alert("Correct");
+            } else {
+                alert("Incorrect");
+            }
+        }
+        alert("you got" + score + "/" + questions.length);
     {
+
+    }

@@ -30,12 +30,13 @@
             />
         <p>The Winner Takes It All" was yet another N.1 of which group?</p>
         <ol>
-        <li class="option"><span id="option1"></span>Abba</li>
-        <li class="option"><span id="option2"></span>Nirvana</li>
-        <li class="option"><span id="option3"></span>Metallica</li>
-        <li class="option"><span id="option4"></span>Guns and Roses</li>
+        <li class="option"><span id="option0" onclick="calcScore(this)"></span>Abba</li>
+        <li class="option"><span id="option1" onclick="calcScore(this)"></span>Nirvana</li>
+        <li class="option"><span id="option2" onclick="calcScore(this)"></span>Metallica</li>
+        <li class="option"><span id="option3" onclick="calcScore(this)"></span>Guns and Roses</li>
 
       </ol>
+      <h3 id="stat"></h3>
       </div>
       <div class="question-2">
        <h2 id="question-2">Question 2</h2>
@@ -46,12 +47,13 @@
           
         <p>Which Beatles N.1 featured the word Yellow in the title?</p>
         <ol>
-          <li class="option"><span id="option1"></span>Red submarine</li>
-          <li class="option"><span id="option2"></span>Yellow submarine</li>
-          <li class="option"><span id="option3"></span>Blue submarine</li>
-          <li class="option"><span id="option4"></span>Green submarine</li>
+          <li class="option"><span id="option1" onclick="calcScore(this)"></span>Red submarine</li>
+          <li class="option"><span id="option2" onclick="calcScore(this)"></span>Yellow submarine</li>
+          <li class="option"><span id="option3" onclick="calcScore(this)"></span>Blue submarine</li>
+          <li class="option"><span id="option4" onclick="calcScore(this)"></span>Green submarine</li>
   
         </ol>
+        <h3 id="stat"></h3>
       </div>
       <div class="question-3">
         <h2 class="question-3">Question 3</h2>
@@ -61,12 +63,13 @@
             />
         <p>George Michael first hit N.1 as a member of which duo?</p>
         <ol>
-          <li class="option"><span id="option1"></span>Wham!</li>
-          <li class="option"><span id="option2"></span>Kiss</li>
-          <li class="option"><span id="option3"></span>Damn!</li>
-          <li class="option"><span id="option4"></span>Hello!</li>
+          <li class="option"><span id="option1" onclick="calcScore(this)"></span>Wham!</li>
+          <li class="option"><span id="option2" onclick="calcScore(this)"></span>Kiss</li>
+          <li class="option"><span id="option3" onclick="calcScore(this)"></span>Damn!</li>
+          <li class="option"><span id="option4" onclick="calcScore(this)"></span>Hello!</li>
   
         </ol>
+        <h3 id="stat"></h3>
       </div>
       <div class="question-4">
         <h2 class="question-4">Question 4</h2>
@@ -76,12 +79,12 @@
             />
         <p>(Everything I Do) I Do it for You! was a monster hit of whom?</p>
         <ol>
-          <li class="option"><span id="option1"></span>Bryan Adams</li>
-          <li class="option"><span id="option2"></span>Elton John</li>
-          <li class="option"><span id="option3"></span>Sting</li>
-          <li class="option"><span id="option4"></span>Michael Jackson</li>
+          <li class="option"><span id="option1" onclick="calcScore(this)"></span>Bryan Adams</li>
+          <li class="option"><span id="option2" onclick="calcScore(this)"></span>Elton John</li>
+          <li class="option"><span id="option3" onclick="calcScore(this)"></span>Sting</li>
+          <li class="option"><span id="option4" onclick="calcScore(this)"></span>Michael Jackson</li>
           </ol>
-
+          <h3 id="stat"></h3>
       </div>
       <div class="question-5">
         <h2 class="question-5">Question 5</h2>
@@ -91,11 +94,12 @@
             />
         <p>Who was the lead singer with the Police?</p>
         <ol>
-          <li class="option"><span id="option1"></span>Bryan Adams</li>
-          <li class="option"><span id="option2"></span>Elton John</li>
-          <li class="option"><span id="option3"></span>Sting</li>
-          <li class="option"><span id="option4"></span>Michael Jackson</li>
+          <li class="option"><span id="option1" onclick="calcScore(this)"></span>Bryan Adams</li>
+          <li class="option"><span id="option2" onclick="calcScore(this)"></span>Elton John</li>
+          <li class="option"><span id="option3" onclick="calcScore(this)"></span>Sting</li>
+          <li class="option"><span id="option4" onclick="calcScore(this)"></span>Michael Jackson</li>
           </ol>
+          <h3 id="stat"></h3>
        </div>
   </div>
   <div class="buttons">
@@ -103,7 +107,13 @@
   </div>
     <div id="results">
       <h2 id="results">Your Result</h2>
-      <button type="button" id="Result"></button>
+      <h2 id="score"></h2>
+      <button type="button" id="results" id="results">Results</button>
+    </div>
+
+    <div id="answers">
+      <h2>Answers:</h2>
+      <ol type="1" id="answers"></ol>
     </div>
 
     <script src="assets/js/script.js"></script>
