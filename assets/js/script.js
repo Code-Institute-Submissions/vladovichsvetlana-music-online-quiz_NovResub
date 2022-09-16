@@ -94,6 +94,12 @@ var span= document.getElementById("span");
 var i=0;
 var score= 0;
 
-//
-
-    
+function displayQuestion(){
+    for(var a=0;a<span.length;a++){
+        span[a].style.background= "none";
+    }
+question.innerHTML= "Q."+(i+1)+" "+questionBank[i].question;
+question0.innerHTML= questionBank[i].option[0];
+question1.innerHTML= questionBank[i].option[1];
+question2.innerHTML= questionBank[i].option[2];   
+question3.innerHTML= questionBank[i].option[3];
