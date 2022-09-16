@@ -75,17 +75,7 @@ var quiz = [    [
     "status": ""
     },
 ]
-        var score = 0;
-        for(var i=0; i <questions.length; i++){
-            var response = winsow.promt(questions(i).prompt);
-            if(response == questions(i).answer){
-                score++;
-                alert("Correct");
-            } else {
-                alert("Incorrect");
-            }
-        }
-        alert("you got" + score + "/" + questions.length);
-    {
+    
 
-    }
+
+    
