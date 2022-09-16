@@ -15,26 +15,26 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Online Music Quiz</title>
+    <title>Music Quiz</title>
   </head>
   <body>
     <header>
 
     </header>
-      <section class="question-1">
-        <h2 class="question-1">Question 1</h2>
-        <div id="question-1">
-            <img
+    <div id="quiz-container">
+    <div class="question-1">
+        <h2 id="question-1">Question 1</h2>
+           <img
               src="assets/images/popmusic.jpg"
               alt="popmusic"
             />
-          </div>
+          
         <p>The Winner Takes It All" was yet another N.1 of which group?</p>
-        <p>Abba</p>
-        <p>Nirvana</p>
-        <p>Metallica</p>
-        <p>Guns and Roses</p>
-      </section>
+        <li class="option"><span id="Abba"></span></li>
+        <li class="option"><span id="Nirvana"></span></li>
+        <li class="option"><span id="Metallica"></span></li>
+        <li class="option"><span id="Guns and Roses"></span></li>
+      </div>
       <section class="question-2">
         <h2 class="question-2">Question 2</h2>
         <div id="question-2">
@@ -92,6 +92,7 @@
         <p>Michael Jackson</p>
       </section>
     </div>
+  </div>
     <button id="submit">Submit Quiz</button>
     <div id="results"></div>
     <script src="assets/js/script.js"></script>
