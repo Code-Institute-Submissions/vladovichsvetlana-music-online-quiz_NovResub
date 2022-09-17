@@ -1,13 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 body{
     font-family: Roboto;
-    background: #f3d9e3;
-    background-position: center;
+    background: #f5d6b5;
 }
+
 img{
     width: 5 rem;
     height: 5 rem;
     border-radius: 500%;
     position: center;
 
+}
+
+.grid {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(23, 2, 2);
+    padding: 10px 50 px 50 px 50px;
+    border-radius: 50 px;
+    border: 2px solid #e40707;
+    box-shadow: 10px 15px 5px #c68080;
+}
+
+.grid {
+    font-family: Roboto;
+    background-color: beige;
+    font-size: 60px;
+    text-align: center;
+    color: blue;
+    border-radius: 50px;
 }
