@@ -42,83 +42,14 @@ function populate() {
 }
 
 
-var questions = [    [
-    {
-    "id": question-1,
-    "question": "The Winner Takes It All was yet another N.1 of which group?",
-    "options": [
-    {
-    "1": "&lt;Abba&gt;", 
-    "2": "&lt;Nirvana&gt;",
-    "3": "&lt;Metallica&gt;",
-    "4": "&lt;Guns and Roses&gt;"
-    }
-    ],
-    "answer": "&lt;Abba&gt;",
-    "score": 0,
-    "status": ""
-    },
-    {
-    "id": question-2,
-    "question": "Which Beatles N.1 featured the word Yellow in the title?",
-    "options": [
-    {
-    "1": "&lt;Red submarine&gt;",
-    "2": "&lt;Yellow submarine&gt;",
-    "3": "&lt;Blue submarine&gt;",
-    "4": "&lt;Green submarine&gt;"
-    }
-    ],
-    "answer": "&lt;Yellow submarine&gt;",
-    "score": 0,
-    "status": ""
-    },
-    {
-    "id": question-3,
-    "question": "George Michael first hit N.1 as a member of which duo?",
-    "options": [
-    {
-    "1": "&lt;Wham!&gt;",
-    "2": "&lt;Kiss&gt;",
-    "3": "&lt;Damn!&gt;",
-    "4": "&lt;Hello!&gt;"
-    }
-    ],
-    "answer": "&lt;Wham&gt;",
-    "score": 0,
-    "status": ""
-    },
-    {
-    "id": question-4,
-    "question": "(Everything I Do) I Do it for You! was a monster hit of whom?",
-    "options": [
-    {
-    "1": "&lt;Bryan Adams&gt;",
-    "2": "&lt;Elton John&gt;",
-    "3": "&lt;Sting&gt;",
-    "4": "&lt;Michael Jackson&gt;"
-    }
-    ],
-    "answer": "&lt;Bryan Adams&gt;",
-    "score": 0,
-    "status": ""
-    },
-    {
-    "id": question-5,
-    "question": "Who was the lead singer with the Police?",
-    "options": [
-    {
-    "1": "&lt;Paul McCartney&gt;",
-    "2": "&lt;Sting&gt;",
-    "3": "&lt;Elton John&gt;",
-    "4": "&lt;Michael Jackson&gt;"
-    }
-    ],
-    "answer": "&lt;Sting&gt;",
-    "score": 0,
-    "status": ""
-    },
-]
+var questions = [    
+    new Question ("The Winner Takes It All was yet another N.1 of which group?", ["Abba", "Nirvana", "Metallica", "Guns and Roses"], "Abba"),
+    new Question ("Which Beatles N.1 featured the word Yellow in the title?", ["Red submarine", "Yellow submarine", "Blue submarine", "Green submarine"], "Yellow submarine"),
+    new Question ("George Michael first hit N.1 as a member of which duo?", ["Wham!", "Kiss", "Damn!", "Hello!"], "Wham!"),
+    new Question ("(Everything I Do) I Do it for You! was a monster hit of whom?", ["Bryan Adams", "Elton John", "Sting", "Michael Jackson"], "Bryan Adams"),
+    new Question ("Who was the lead singer with the Police?", ["Paul McCartney", "Sting", "Elton John", "Michael Jackson"], "Sting"),
+];
+
     var score= document.getElementById
 ("score");
 var option0= document.getElementById 
