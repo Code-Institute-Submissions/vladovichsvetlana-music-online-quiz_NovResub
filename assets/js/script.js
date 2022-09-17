@@ -1,6 +1,6 @@
 function question (text, choice, answer) {
     this.text = text;
-    this.choices = choices;
+    this.options= options;
     this.answer = answer;
 }
 
@@ -15,14 +15,14 @@ function Qiuz(questions) {
 }
 
 quiz.prototype.getQuestionIndex = function() {
-    return this.questions{this.questionIndex};
+    return this.questions[this.questionIndex];
 }
 
 quiz.prototype.isEnded = function() {
     return this.questions.length === this.questionIndex;
 }
  
-quiz.prototype.guess = function() {
+quiz.prototype.guess = function(answer) {
     this.questionIndex++;
 
     if(this.getQuestionIndex().correctAnswer(answer)) {
@@ -37,10 +37,32 @@ function populate() {
     else {
         //show question
         var element = document.getElementById("question");
-        element.innderHTML = quiz.getQuestionIndex() .text;
+        element.innerHTML = quiz.getQuestionIndex().text;
+
+        // show options
+        var choices = quiz.getQuestionIndex().options;
+        for(var i = 0; i< choices.length; i++) {
+            var element = document.getElementById("option" + i);
+            element.innerHTML = options(i);
+            guess("button" + i, options(i));
+        }
     }
 }
 
+function guess(id, guess) {
+    var button = document.getElementById(id);
+    button.onclick = function() {
+
+    }
+} 
+
+function showScores() {
+    var gameOverHtml = "<h1>Score</h1>";
+    gameOverHtml += "<h2 id="score"> Your scores: " + quiz.score + "</h2";
+    var element = document.getElementById("quiz");
+    element.innerHTML = gameOverHtml;
+    
+}
 
 var questions = [    
     new Question ("The Winner Takes It All was yet another N.1 of which group?", ["Abba", "Nirvana", "Metallica", "Guns and Roses"], "Abba"),
@@ -49,6 +71,8 @@ var questions = [
     new Question ("(Everything I Do) I Do it for You! was a monster hit of whom?", ["Bryan Adams", "Elton John", "Sting", "Michael Jackson"], "Bryan Adams"),
     new Question ("Who was the lead singer with the Police?", ["Paul McCartney", "Sting", "Elton John", "Michael Jackson"], "Sting"),
 ];
+
+var quiz = new Quiz(questions);
 
     var score= document.getElementById
 ("score");
