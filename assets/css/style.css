@@ -23,11 +23,41 @@ img{
     box-shadow: 10px 15px 5px #c68080;
 }
 
-.grid {
+.grid h1{
     font-family: Roboto;
     background-color: beige;
     font-size: 60px;
     text-align: center;
-    color: blue;
+    color: hsl(240, 52%, 74%);
     border-radius: 50px;
+}
+
+.grid #question {
+    font-family: Roboto;
+    font-size: 40px;
+    color:rgb(237, 190, 190);
+ }
+
+ .buttons {
+    martin-top: 20px;
+ }
+
+ #button0, #button1, #button2, #button3 {
+    background-color: bisque;
+    width: 250px;
+    font-size: 20px;
+    color:rgb(23, 2, 2);
+    border: 1px solid rgb(239, 233, 233);
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#progress {
+    color:hsl(240, 52%, 74%);
+    font-size: 20px;
+}
+
+#button0:hover, #button1:hover, #button2:hover, #button3:hover {
+
 }
