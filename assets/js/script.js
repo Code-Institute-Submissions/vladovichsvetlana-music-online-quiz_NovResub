@@ -22,18 +22,27 @@ quiz.prototype.isEnded = function() {
     return this.questions.length === this.questionIndex;
 }
  
+quiz.prototype.guess = function() {
+    this.questionIndex++;
+
+    if(this.getQuestionIndex().correctAnswer(answer)) {
+        this.score++;
+    }
+}
+
+function populate() {
+    if(quiz.isEnded()) {
+        //showScores();
+    }
+    else {
+        //show question
+        var element = document.getElementById("question");
+        element.innderHTML = quiz.getQuestionIndex() .text;
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-var quiz = [    [
+var questions = [    [
     {
     "id": question-1,
     "question": "The Winner Takes It All was yet another N.1 of which group?",
