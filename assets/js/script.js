@@ -1,11 +1,11 @@
-function question (text, choice, answer) {
+function question (text, options, answer) {
     this.text = text;
     this.options= options;
     this.answer = answer;
 }
 
-question.prototype.correctAnswer = function(choice) {
-    return choice === this.answer;
+question.prototype.correctAnswer = function(option) {
+    return option === this.answer;
 }
 
 function Qiuz(questions) {
@@ -52,13 +52,19 @@ function populate() {
 function guess(id, guess) {
     var button = document.getElementById(id);
     button.onclick = function() {
-
+        quiz.guess(guess);
+        populate();
     }
 } 
 
+function showProgress() {
+    var currentQuestionNumber = quiz.questionIndex + 1;
+    var element = document.getElementById("progress");
+    element.innerHTML = "Question " + "currentQuestionNumber + "/" + quiz.questions.length";
+
 function showScores() {
     var gameOverHtml = "<h1>Score</h1>";
-    gameOverHtml += "<h2 id="showScores"> Your scores: " + quiz.score + "</h2";
+    gameOverHtml += "<h2> Your score: " + quiz.score + "</h2";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 }
@@ -74,3 +80,4 @@ var questions = [
 var quiz = new Quiz(questions);
 
 populate();
+}

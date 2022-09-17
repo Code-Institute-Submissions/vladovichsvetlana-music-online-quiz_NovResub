@@ -45,13 +45,13 @@ img{
 
  #button0, #button1, #button2, #button3 {
     background-color: rgb(247, 232, 244);
-    width: 250px;
+    width: 258px;
     height: 50px;
     font-size: 20px;
     color:rgba(247, 200, 244, 0.184);
     border: 1px solid rgb(239, 233, 233);
     border-radius: 50px;
-    margin: 10px 40px 10px 0px;
+    margin: 0px 40px 10px 0px;
     padding: 10px 10px;
     text-align: center;
 }
