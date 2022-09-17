@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 body{
     font-family: Roboto;
-    background: #f5d6b5;
+    background: #e1ccd6;
 }
 
 img{
-    width: 5 rem;
-    height: 5 rem;
-    border-radius: 500%;
+    width: 50 rem;
+    height: 50 rem;
+    border-radius: 100%;
     position: center;
 
 }
@@ -16,49 +16,56 @@ img{
     width: 600px;
     height: 500px;
     margin: 0 auto;
-    background-color: rgb(23, 2, 2);
+    background-color: rgba(181, 137, 181, 0.67);
     padding: 10px 50 px 50 px 50px;
     border-radius: 50 px;
-    border: 2px solid #e40707;
-    box-shadow: 10px 15px 5px #c68080;
+    border: 2px solid #680363;
+    box-shadow: 10px 15px 5px #72044a;
 }
 
 .grid h1{
     font-family: Roboto;
-    background-color: beige;
+    background-color: rgb(247, 232, 244);
     font-size: 60px;
     text-align: center;
-    color: hsl(240, 52%, 74%);
+    color: hsl(309, 21%, 32%);
     padding:2px 0px;
     border-radius: 50px;
 }
 
 .grid #question {
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 100px;
     color:rgb(237, 190, 190);
  }
 
  .buttons {
-    martin-top: 20px;
+    margin-top: 0px;
  }
 
  #button0, #button1, #button2, #button3 {
-    background-color: bisque;
+    background-color: rgb(247, 232, 244);
     width: 250px;
+    height: 50px;
     font-size: 20px;
-    color:rgb(23, 2, 2);
+    color:rgba(247, 200, 244, 0.184);
     border: 1px solid rgb(239, 233, 233);
     border-radius: 50px;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
+    text-align: center;
 }
 
 #progress {
-    color:hsl(240, 52%, 74%);
+    color:hsl(304, 87%, 18%);
     font-size: 20px;
 }
 
 #button0:hover, #button1:hover, #button2:hover, #button3:hover {
+    cursor: pointer;
+    background-color: rgba(125, 0, 125, 0.203);
+}
 
+#button0:focus, #button1:focus, #button2:focus, #button3:focus {
+    outline: 0;
 }

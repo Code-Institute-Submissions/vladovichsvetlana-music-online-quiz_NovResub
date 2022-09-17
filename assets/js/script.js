@@ -14,21 +14,21 @@ function Qiuz(questions) {
     this.questionIndex = 0;
 }
 
-quiz.prototype.getQuestionIndex = function() {
+Quiz.prototype.getQuestionIndex = function() {
     return this.questions[this.questionIndex];
 }
 
-quiz.prototype.isEnded = function() {
+Quiz.prototype.isEnded = function() {
     return this.questions.length === this.questionIndex;
 }
  
-quiz.prototype.guess = function(answer) {
-    this.questionIndex++;
-
+Quiz.prototype.guess = function(answer) {
     if(this.getQuestionIndex().correctAnswer(answer)) {
         this.score++;
     }
 }
+
+this.questionIndex++;
 
 function populate() {
     if(quiz.isEnded()) {
@@ -40,8 +40,8 @@ function populate() {
         element.innerHTML = quiz.getQuestionIndex().text;
 
         // show options
-        var choices = quiz.getQuestionIndex().options;
-        for(var i = 0; i< choices.length; i++) {
+        var options = quiz.getQuestionIndex().options;
+        for(var i = 0; i< options.length; i++) {
             var element = document.getElementById("option" + i);
             element.innerHTML = options(i);
             guess("button" + i, options(i));
@@ -58,10 +58,9 @@ function guess(id, guess) {
 
 function showScores() {
     var gameOverHtml = "<h1>Score</h1>";
-    gameOverHtml += "<h2 id="score"> Your scores: " + quiz.score + "</h2";
+    gameOverHtml += "<h2 id="showScores"> Your scores: " + quiz.score + "</h2";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
-    
 }
 
 var questions = [    
@@ -74,31 +73,4 @@ var questions = [
 
 var quiz = new Quiz(questions);
 
-    var score= document.getElementById
-("score");
-var option0= document.getElementById 
-("option0");
-var option1= document.getElementById
-("option1");
-var option2 = document.getElementById
-("option2");
-var option3 = document.getElementById
-("option3");
-var question= document.getElementById
-("question");
-var quiz= document.getElementById
-("quiz");
-var points= document.getElementById("score");
-var span= document.getElementById("span");
-var i=0;
-var score= 0;
-
-function displayQuestion(){
-    for(var a=0;a<span.length;a++){
-        span[a].style.background= "none";
-    }
-question.innerHTML= "Q."+(i+1)+" "+questionBank[i].question;
-question0.innerHTML= questionBank[i].option[0];
-question1.innerHTML= questionBank[i].option[1];
-question2.innerHTML= questionBank[i].option[2];   
-question3.innerHTML= questionBank[i].option[3];
+populate();
