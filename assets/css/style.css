@@ -13,8 +13,8 @@ img{
 }
 
 .grid {
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
     margin: 0 auto;
     background-color: rgb(23, 2, 2);
     padding: 10px 50 px 50 px 50px;
@@ -29,12 +29,13 @@ img{
     font-size: 60px;
     text-align: center;
     color: hsl(240, 52%, 74%);
+    padding:2px 0px;
     border-radius: 50px;
 }
 
 .grid #question {
     font-family: Roboto;
-    font-size: 40px;
+    font-size: 30px;
     color:rgb(237, 190, 190);
  }
 
