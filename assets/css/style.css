@@ -58,7 +58,8 @@ img{
 
 #progress {
     color:hsl(304, 87%, 18%);
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 #button0:hover, #button1:hover, #button2:hover, #button3:hover {
