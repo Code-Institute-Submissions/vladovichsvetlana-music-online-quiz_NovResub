@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 body{
-    font-family: Roboto;
     background: #e1ccd6;
+    font-family: Roboto;
+    
 }
 
 img{
@@ -33,6 +34,11 @@ img{
     border-radius: 50px;
 }
 
+.grid h1:hoover {
+    cursor: pointer;
+    background-color: rgba(125, 0, 125, 0.203);
+}
+
 .grid #question {
     font-family: Roboto;
     font-size: 100px;
@@ -43,7 +49,7 @@ img{
     margin-top: 0px;
  }
 
- #button0, #button1, #button2, #button3 {
+ #btn0, #btn1, #btn2, #btn3 {
     background-color: rgb(247, 232, 244);
     width: 258px;
     height: 50px;
@@ -62,11 +68,11 @@ img{
     text-align: center;
 }
 
-#button0:hover, #button1:hover, #button2:hover, #button3:hover {
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
     cursor: pointer;
     background-color: rgba(125, 0, 125, 0.203);
 }
 
-#button0:focus, #button1:focus, #button2:focus, #button3:focus {
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
     outline: 0;
 }

@@ -13,7 +13,7 @@
     for (var i= 0; i < choices.length; i++) { 
     var element = document.getElementById('choice' + i);//choice 0 
     element.innerHTML = choices[i]; //set choice 0 innerhtml to slytherin 
-    guess("button" + i, choices[i]); 
+    guess("btn" + i, choices[i]); 
      
     } 
      
@@ -43,11 +43,11 @@
     } 
 	 
     var questions = [ 
-    new Question("What is harrys house?", ["Slytherin", "HufflePuff", "Gryffindor", "Ravenclaw"], "Gryffindor"), 
-    new Question("What is Dracos house?", ["Slytherin", "HufflePuff", "Gryffindor", "Ravenclaw"], "Slytherin"), 
-    new Question("What is hermoines house?", ["Slytherin", "HufflePuff", "Gryffindor", "Ravenclaw"], "Gryffindor"), 
-    new Question("What is rons house?", ["Slytherin", "HufflePuff", "Gryffindor", "Ravenclaw"], "Gryffindor"), 
-    new Question("What is nevilles house?", ["Slytherin", "HufflePuff", "Gryffindor", "Ravenclaw"], "Gryffindor") 
+    new Question("The Winner takes it all was yet another N1 hit for which group?", ["Abba", "Nirvana", "Metallica", "Guns and Roses"], "Abba"), 
+    new Question("Which Beetle N1 feated the word Yellow in the title?", ["Yellow submarine", "Red submarine", "Blue submarine", "Green submarine"], "Yellow submarine"), 
+    new Question("George Michael first hit N1 as a member of which Duo?", ["Wham!", "Kiss", "Damn!", "Hello"], "Wham!"), 
+    new Question("Everything I do I do it for you was a monster hit of whom?", ["Bryan Adams", "Elton Johns", "Sting", "Michael Jackson"], "Bryan Adams"), 
+    new Question("Who was the lead singer with the Police?", ["Sting", "Elton Johns", "Michael Jackson", "Bryan Adams"], "Sting") 
     ]; 
 	 
     	//slot in the quiz object instance 
