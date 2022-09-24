@@ -80,4 +80,9 @@ button:hover {
     #main-menu {
       display: block;
     }
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
   }
+}

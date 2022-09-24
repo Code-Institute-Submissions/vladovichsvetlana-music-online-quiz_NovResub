@@ -9,6 +9,13 @@ It is an online quiz on 90s music hits.
 A fully responsive online quiz is made from scratch with the help of HTML, CSS and Java Script.
 
 ![responsive_design_readme](https://user-images.githubusercontent.com/107796276/192120736-e5c8032d-2f50-48b0-a8aa-423ad0f14d80.jpg)
+
+
+
+Online quiz can be opened by scanning the QR code with a QR code reader or a camera of any latest smart device. It can also be opened in the most popular browsers such as Google Chrome, Firefox and Microsoft Internet Explorer.
+
+![QRandbrowsers](https://user-images.githubusercontent.com/107796276/192121852-1fd7ad6c-2d5d-4c9a-b8b3-3238fd86f188.jpg)
+
  
 Existing Features
 
