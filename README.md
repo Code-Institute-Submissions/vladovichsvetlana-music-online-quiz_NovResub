@@ -4,9 +4,11 @@ Welcome to Online Music quiz website  (https://github.com/vladovichsvetlana/musi
 
 It is an online quiz on 90s music hits. 
 
+![online_quiz](https://user-images.githubusercontent.com/107796276/192120730-917bbab1-ba45-4670-a039-2f3209ab736d.jpg)
+
 A fully responsive online quiz is made from scratch with the help of HTML, CSS and Java Script.
 
-![responsive_design_readme](https://user-images.githubusercontent.com/107796276/192120727-24241cf5-062d-45ff-becb-c8ab64e04bc5.jpg)
+![responsive_design_readme](https://user-images.githubusercontent.com/107796276/192120736-e5c8032d-2f50-48b0-a8aa-423ad0f14d80.jpg)
  
 Existing Features
 
