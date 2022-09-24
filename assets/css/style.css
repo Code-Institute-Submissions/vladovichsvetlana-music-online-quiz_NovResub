@@ -2,7 +2,8 @@
 body{
     background: #e1ccd6;
     font-family: Roboto;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 img{
@@ -13,66 +14,45 @@ img{
 
 }
 
-.grid {
-    width: 600px;
-    height: 500px;
-    margin: 0 auto;
-    background-color: rgba(181, 137, 181, 0.67);
-    padding: 10px 50 px 50 px 50px;
-    border-radius: 50 px;
-    border: 2px solid #680363;
-    box-shadow: 10px 15px 5px #72044a;
-}
-
-.grid h1{
+#question {
     font-family: Roboto;
-    background-color: rgb(247, 232, 244);
-    font-size: 60px;
+    background-color: rgb(248, 235, 245);
+    font-size: 20px;
     text-align: center;
     color: hsl(309, 21%, 32%);
     padding:2px 0px;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 
-.grid h1:hoover {
-    cursor: pointer;
-    background-color: rgba(125, 0, 125, 0.203);
+options {
+    color: hsl(309, 48%, 57%);
+
 }
 
-.grid #question {
-    font-family: Roboto;
-    font-size: 100px;
-    color:rgb(237, 190, 190);
- }
-
- .buttons {
-    margin-top: 0px;
- }
-
- #btn0, #btn1, #btn2, #btn3 {
-    background-color: rgb(247, 232, 244);
+ button {
+    background-color: rgb(105, 1, 107);
     width: 258px;
     height: 50px;
     font-size: 20px;
-    color:rgba(247, 200, 244, 0.184);
-    border: 1px solid rgb(239, 233, 233);
+    color:rgba(214, 7, 197, 0.793);
+    border: 1px solid rgb(167, 6, 126);
     border-radius: 50px;
     margin: 0px 40px 10px 0px;
     padding: 10px 10px;
     text-align: center;
 }
 
-#progress {
-    color:hsl(304, 87%, 18%);
+#warning.textContent {
+    color:hsl(304, 93%, 29%);
     font-size: 30px;
     text-align: center;
 }
 
-#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+button:hover {
     cursor: pointer;
     background-color: rgba(125, 0, 125, 0.203);
 }
 
-#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+#button:focus {
     outline: 0;
 }
