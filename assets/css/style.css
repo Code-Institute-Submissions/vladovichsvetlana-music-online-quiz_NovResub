@@ -7,10 +7,10 @@ body{
 }
 
 img{
-    width: 30 rem;
-    height: 30 rem;
+    width: 612px;
+    height: 344px;
     border-radius: 100%;
-    position: center;
+    text-align: center;
 
 }
 
@@ -22,9 +22,10 @@ img{
     color: hsl(309, 21%, 32%);
     padding:2px 0px;
     border-radius: 60px;
+    box-shadow: 10px 15px 5px #e96fe0; 
 }
 
-options {
+choices {
     color: hsl(309, 48%, 57%);
 
 }
@@ -48,6 +49,18 @@ options {
     text-align: center;
 }
 
+#result.textContent {  
+    color: hsl(304, 93%, 29%);
+    font-size: 30px;
+    text-align: center;
+}
+
+#warning.textContent {
+    color: hsl(304, 93%, 29%);
+    font-size: 30px;
+    text-align: center; 
+}
+
 button:hover {
     cursor: pointer;
     background-color: rgba(125, 0, 125, 0.203);
@@ -56,3 +69,15 @@ button:hover {
 #button:focus {
     outline: 0;
 }
+
+@media screen and (max-width: 750px) {
+    #main-menu {
+      display: none;
+    }
+
+  }
+  @media screen and (max-width: 1425px) {
+    #main-menu {
+      display: block;
+    }
+  }
