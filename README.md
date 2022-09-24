@@ -6,18 +6,18 @@ It is an online quiz on 90s music hits.
 
 ![online_quiz](https://user-images.githubusercontent.com/107796276/192120730-917bbab1-ba45-4670-a039-2f3209ab736d.jpg)
 
-A fully responsive online quiz is made from scratch with the help of HTML, CSS and Java Script.
+A fully responsive online quiz is made from scratch with the help of HTML, CSS and Java Script:
 
 ![responsive_design_readme](https://user-images.githubusercontent.com/107796276/192120736-e5c8032d-2f50-48b0-a8aa-423ad0f14d80.jpg)
 
 
 
-Online quiz can be opened by scanning the QR code with a QR code reader or a camera of any latest smart device. It can also be opened in the most popular browsers such as Google Chrome, Firefox and Microsoft Internet Explorer.
+Online quiz can be opened by scanning the QR code with a QR code reader or a camera of any latest smart device. It can also be opened in the most popular browsers such as Google Chrome, Firefox and Microsoft Internet Explorer:
 
 ![QRandbrowsers](https://user-images.githubusercontent.com/107796276/192121852-1fd7ad6c-2d5d-4c9a-b8b3-3238fd86f188.jpg)
 
  
-Existing Features
+Existing Features:
 
 The test consists of 5 questions with a muilti-choice answers grids (one of 4 options is correct). The following Java Script functions used: Quiz(options), function generateQuestions, function render_question, function initQuiz, function checkAnswer, function validateAnswer, function nextQuestion, function prevQuestion, function finishQuiz.
  
@@ -45,6 +45,12 @@ No errors were found when passing through the official W3C validator:
 
 ![css_readme](https://user-images.githubusercontent.com/107796276/192120725-a407dfdc-2ca1-4000-869b-10f745bb7a7f.jpg)
 
+Java Script
+
+No errors were found when passing through the official Java Script validator https://snyk.io:
+
+![Javachecker](https://user-images.githubusercontent.com/107796276/192122467-a2cc741b-33db-4f28-b20b-1ad754453eaf.jpg)
+
 Bugs
 
 No bugs were identified following the Html and CSS Checkers.
@@ -52,7 +58,7 @@ No bugs were identified following the Html and CSS Checkers.
 
 Lighthouse statistics
 
-Lighthouse statistics stated that there was an issue with the image resolution and image ratio. 
+Lighthouse statistics stated that there was an issue with the image resolution and image ratio:
 
 ![lighthouse_readme](https://user-images.githubusercontent.com/107796276/192120727-24241cf5-062d-45ff-becb-c8ab64e04bc5.jpg)
 
