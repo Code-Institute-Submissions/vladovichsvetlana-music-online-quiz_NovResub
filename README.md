@@ -1,6 +1,6 @@
 # music-online-quiz
 
-Welcome to Online Music quiz website  (https://github.com/vladovichsvetlana/music-online-quiz)!
+Welcome to Online Music quiz website  (https://vladovichsvetlana.github.io/music-online-quiz/)!
 
 It is an online quiz on 90s music hits. 
 
