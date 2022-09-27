@@ -4,11 +4,16 @@ Welcome to Online Music quiz website  (https://vladovichsvetlana.github.io/music
 
 It is an online quiz on 90s music hits. 
 
-![online_quiz](https://user-images.githubusercontent.com/107796276/192120730-917bbab1-ba45-4670-a039-2f3209ab736d.jpg)
+![online_quiz](https://user-images.githubusercontent.com/107796276/192621342-b9c41412-19ec-477b-8102-62bdf0f320d7.jpg)
 
 A fully responsive online quiz is made from scratch with the help of HTML, CSS and Java Script:
 
-![responsive_design_readme](https://user-images.githubusercontent.com/107796276/192120736-e5c8032d-2f50-48b0-a8aa-423ad0f14d80.jpg)
+![responsive_design_readme](https://user-images.githubusercontent.com/107796276/192621371-9257271b-778f-497e-a52b-e77efdcf3f40.jpg)
+
+
+Mobile devices responsiveness checked on several devices; no issues found:
+
+![Mobileresponsiveness](https://user-images.githubusercontent.com/107796276/192621743-aba48dae-891f-4b57-9480-c484b54a3e5e.jpg)
 
 
 
