@@ -68,5 +68,5 @@ The online quiz image was changed and ratio was adapted to the more suitable siz
 
 Deployment
 
-The site was deployed to GitHub pages and can be checked via the live link https://vladovichsvetlana.github.io/music-online-quiz/.
+The site was deployed to GitHub pages using the commands "git add .", "git commit -m", "git push". The deployed pages can be checked via the live link https://vladovichsvetlana.github.io/music-online-quiz/.
 
