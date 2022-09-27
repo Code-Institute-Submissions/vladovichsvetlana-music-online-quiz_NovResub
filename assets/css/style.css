@@ -16,6 +16,9 @@ img{
 
 #quiz {
     text-align: center;
+    color:hsl(309, 48%, 57%);
+    font-weight: bold;
+    font-family: Roboto;
 }
 
 #question {
