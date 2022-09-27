@@ -25,6 +25,13 @@ img{
     box-shadow: 10px 15px 5px #e96fe0; 
 }
 
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 choices {
     color: hsl(309, 48%, 57%);
 
