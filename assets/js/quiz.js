@@ -1,3 +1,4 @@
+// Listing the questions, choices and correct answers:
 const allQuestions = [
     {
       question: 'The Winner takes it all was yet another N1 hit for which group?',
@@ -30,6 +31,8 @@ const allQuestions = [
       correctAnswer: 0
     }
   ];
+
+  // Adding function to generate quiz options:
   function Quiz(options) {
     var elem = options.elem;
     var allQuestions = options.questions;
@@ -40,6 +43,8 @@ const allQuestions = [
     var current_number;
     generateQuestions(allQuestions);
     initQuiz();
+
+    // Adding function to generate questions:
     function generateQuestions(q) {
       for (var i = 0; i < q_number; i++) {
         var question = document.createElement('div');
@@ -66,7 +71,7 @@ const allQuestions = [
         prev_button.addEventListener('click', prevQuestion);
         var next_button = document.createElement('button');
         if (i === q_number - 1) {
-          next_button.textContent = 'Finish Him';
+          next_button.textContent = 'Finish Quiz';
           next_button.addEventListener('click', finishQuiz);
         } else {
           next_button.textContent = 'Next Question';
@@ -78,6 +83,8 @@ const allQuestions = [
         questions.push(question);
       }
     }
+
+    // Adding redirecting function:
     function render_question(number) {
       var warning = elem.getElementsByClassName('warning')[0];
       if (warning) {
@@ -86,10 +93,13 @@ const allQuestions = [
       elem.appendChild(questions[number]);
       $('#question').hide().fadeIn(500);
     }
+
     function initQuiz() {
       current_number = 0;
       render_question(current_number);
     }
+
+    // Adding function to check the answers:
     function checkAnswers() {
       for (var i = 0; i < q_number; i++) {
         if (answers[i] === allQuestions[i].correctAnswer) {
@@ -97,6 +107,8 @@ const allQuestions = [
         }
       }
     }
+
+    // Adding function to check the answers and to diplay the warnings:
     function validateAnswer() {
       var list_items = elem.getElementsByTagName('input');
       var answered = false;
@@ -115,6 +127,8 @@ const allQuestions = [
       }
       return answered;
     }
+
+    // Adding function to display the next question:
     function nextQuestion() {
       if (validateAnswer()) {
         elem.removeChild(questions[current_number]);
@@ -122,12 +136,16 @@ const allQuestions = [
         render_question(current_number);
       }
     }
+
+    // Adding function to display the previous question:
     function prevQuestion() {
       elem.removeChild(questions[current_number]);
       answers.pop();
       current_number--;
       render_question(current_number);
     }
+
+    // Adding function to finish quiz:
     function finishQuiz() {
       if (validateAnswer()) {
         checkAnswers();
