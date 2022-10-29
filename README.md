@@ -81,7 +81,15 @@ The online quiz image was changed and ratio was adapted to the more suitable siz
 
 ![lighthouse_readme](https://user-images.githubusercontent.com/107796276/192120721-05c0ea34-35c5-4f90-9953-8708ed21fbc3.jpg)
 
+Libraries & Programs used:
+Repository is stored in Github
+HTML, CSS and Java script are created in Gitpod
+Google Fonts, for Roboto+Slab fonts
+Am I Responsive?
+Dev Tools - to ensure the site looked good across different devices
+
 Deployment
 
-The site was deployed to GitHub pages using the commands "git add .", "git commit -m", "git push". The deployed pages can be checked via the live link https://vladovichsvetlana.github.io/music-online-quiz/.
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+In the GitHub repository, navigate to the Settings tab. On the left-hand side under ‘Code and automation’, select ‘Pages’ and from the source section drop-down menu, select the Master Branch. Once the master branch has been selected, the page will be automatically refresh with a detailed ribbon display to indicate the successful deployment. The deployed page can be checked via the link https://vladovichsvetlana.github.io/music-online-quiz/.
 
