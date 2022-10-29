@@ -21,12 +21,20 @@ Online quiz can be opened by scanning the QR code with a QR code reader or a cam
 
 ![QRandbrowsers](https://user-images.githubusercontent.com/107796276/192121852-1fd7ad6c-2d5d-4c9a-b8b3-3238fd86f188.jpg)
 
+
+Design:
+
+Text and Background colours
+
+Different shades of pink and purple colours were chosen for the background and the buttons for the quiz design. Colours work well together. 
  
 Existing Features:
 
 The test consists of 5 questions with a muilti-choice answers grids (one of 4 options is correct). The following Java Script functions used: Quiz(options), function generateQuestions, function render_question, function initQuiz, function checkAnswer, function validateAnswer, function nextQuestion, function prevQuestion, function finishQuiz.
  
-Previous Question and Next Question buttons have Hover effect. Once the mouse trackpads over the icons the buttons the background colour of the buttons changed from dark purple to light purpl the same purple colour of the the buttons frames. 
+Quiz can be navigated using the Previous Question and Next Question buttons which allow you to progress to the next or the previous question. Previous Question and Next Question buttons have Hover effect. Once the mouse trackpads over the icons the buttons the background colour of the buttons changed from dark purple to light purpl the same purple colour of the the buttons frames. 
+
+Restart Quiz button allows you to start the quiz from the beginning. The warning message comes up if no answers are chosen. Once quiz is completed another message comes up displaying the number of correct answers. 
 
 Media
 
