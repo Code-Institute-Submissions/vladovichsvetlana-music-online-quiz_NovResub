@@ -2,7 +2,7 @@
 
 Welcome to Online Music quiz website  (https://vladovichsvetlana.github.io/music-online-quiz/)!
 
-It is an online quiz on 90s music hits. 
+It is an online quiz on 90s music hits. Online quiz can be open on a desktop or a mobile device. The purpose of this tool is to facilitate fun game that encorage teamwork and team bonding. It can be used for friends, family and coworkers gatherings.
 
 ![online_quiz](https://user-images.githubusercontent.com/107796276/192621342-b9c41412-19ec-477b-8102-62bdf0f320d7.jpg)
 
