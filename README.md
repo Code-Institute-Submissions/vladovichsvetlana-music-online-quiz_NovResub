@@ -79,9 +79,9 @@ Lighthouse statistics stated that there was an issue with the image resolution a
 
 ![lighthouse_readme](https://user-images.githubusercontent.com/107796276/192120727-24241cf5-062d-45ff-becb-c8ab64e04bc5.jpg)
 
-The online quiz image was changed and ratio was adapted to the more suitable size which increased the lighthouse statistics Best Practices from 83 to 92 and Performance from 96 to 99.
+The online quiz image was changed and ratio was adapted to the more suitable size which increased the lighthouse statistics Best Practices from 83 to 100 on a desktop device.
 
-![lighthouse_readme](https://user-images.githubusercontent.com/107796276/192120721-05c0ea34-35c5-4f90-9953-8708ed21fbc3.jpg)
+![Rowenston Elementar School (8)](https://user-images.githubusercontent.com/107796276/198902620-f69e83ae-8931-4886-ab21-f0a389c2b5b7.jpg)
 
 Libraries & Programs used:
 Repository is stored in Github
