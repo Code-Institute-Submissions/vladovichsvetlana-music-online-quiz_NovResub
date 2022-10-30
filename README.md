@@ -8,12 +8,14 @@ It is an online quiz on 90s music hits. Online quiz can be open on a desktop or 
 
 A fully responsive online quiz is made from scratch with the help of HTML, CSS and Java Script:
 
-![responsive_design_readme](https://user-images.githubusercontent.com/107796276/192621371-9257271b-778f-497e-a52b-e77efdcf3f40.jpg)
+![Rowenston Elementar School (3)](https://user-images.githubusercontent.com/107796276/198901877-39a91b47-05eb-4418-b976-091141bb669d.jpg)
 
 
 Mobile devices responsiveness checked on a variety of mobile devices; the quiz works well on all devices. No issues found:
 
-![Mobileresponsiveness](https://user-images.githubusercontent.com/107796276/192621743-aba48dae-891f-4b57-9480-c484b54a3e5e.jpg)
+![Rowenston Elementar School (2)](https://user-images.githubusercontent.com/107796276/198901794-08407e91-4d8b-4e51-ad60-e4311af68b10.jpg)
+
+![Rowenston Elementar School (1)](https://user-images.githubusercontent.com/107796276/198901796-6a9a6ff8-403c-45cb-8a17-495347256f95.jpg)
 
 
 Online quiz can be opened by scanning the QR code with a QR code reader or a camera of any latest smart device. It can also be opened in the most popular browsers such as Google Chrome, Firefox and Microsoft Internet Explorer:
