@@ -36,9 +36,9 @@ Existing Features:
 
 The test consists of 5 questions with a muilti-choice answers grids (one of 4 options is correct). The following Java Script functions used: Quiz(options), function generateQuestions, function render_question, function initQuiz, function checkAnswer, function validateAnswer, function nextQuestion, function prevQuestion, function finishQuiz.
  
-Quiz can be navigated using the Previous Question and Next Question buttons which allow you to progress to the next or the previous question. Previous Question and Next Question buttons have Hover effect. Once the mouse trackpads over the icons the buttons the background colour of the buttons changed from dark purple to light purpl the same purple colour of the the buttons frames. 
+Quiz can be navigated using the Previous Question and Next Question buttons which allow you to progress to the next or the previous question. Previous Question and Next Question buttons have Hover effect. Once the mouse trackpads over the icons the buttons the background colour of the buttons changed from dark purple to light purple. 
 
-Restart Quiz button allows you to start the quiz from the beginning. The warning message comes up if no answers are chosen. Once quiz is completed another message comes up displaying the number of correct answers. 
+Restart Quiz button allows you to start the quiz from the beginning. The warning message comes up if no answers are chosen. Once quiz is completed another message comes up displaying the number of correct answers. The top of the page has an image suitable for the music quiz. No link set up for the image as it is online an one-page quiz. 
 
 Media
 
@@ -54,13 +54,13 @@ HTML
 
 No errors were returned when passing through the official W3C validator all html sections:
 
-![html_readme](https://user-images.githubusercontent.com/107796276/192120726-39f2349e-a42a-4f7f-829b-082b1f44d0a4.jpg)
+![Rowenston Elementar School (6)](https://user-images.githubusercontent.com/107796276/198902344-2cd44110-0950-41d4-89a4-17511376bc66.jpg)
 
 CSS
 
 No errors were found when passing through the official W3C validator:
 
-![css_readme](https://user-images.githubusercontent.com/107796276/192120725-a407dfdc-2ca1-4000-869b-10f745bb7a7f.jpg)
+![Rowenston Elementar School (7)](https://user-images.githubusercontent.com/107796276/198902372-73deaf62-737d-4105-847f-de0ab0a43833.jpg)
 
 Java Script
 
