@@ -4,7 +4,7 @@ Welcome to Online Music quiz website  (https://vladovichsvetlana.github.io/music
 
 It is an online quiz on 90s music hits. Online quiz can be open on a desktop or a mobile device. The purpose of this tool is to facilitate a fun game that encorages teamwork and team bonding. It can be used for friends, family and coworkers gatherings.
 
-![online_quiz](https://user-images.githubusercontent.com/107796276/192621342-b9c41412-19ec-477b-8102-62bdf0f320d7.jpg)
+![Rowenston Elementar School (5)](https://user-images.githubusercontent.com/107796276/198902094-de1ab6dd-77e1-4b2e-beb7-d4a7a1cd5642.jpg)
 
 A fully responsive online quiz is made from scratch with the help of HTML, CSS and Java Script:
 
